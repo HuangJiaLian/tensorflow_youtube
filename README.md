@@ -1,7 +1,3 @@
----
-typora-root-url: ./
----
-
 # Tensorflow_youtube
 
 [Luyuan Shi](https://www.youtube.com/channel/UC2Sj-_Y1_F17BwwNJ0wg4EA)
