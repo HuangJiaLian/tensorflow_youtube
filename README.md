@@ -229,3 +229,54 @@ Tensorboard:
 
 ### L6 CNN
 
+全连接网络的困难：
+- 权值太多
+
+- 神经元的个数非常多
+
+- 计算量非常大
+
+
+经验之谈: 数据量的大小是权值个数的5到30倍
+
+**局部感受野**：1962 Hubel 和 Wiesel 猫
+
+减少参数: 局部感受野，和权值共享
+
+![12_cnn_pre.png](pic/12_cnn_pre.png)
+
+#### **卷积核**：对原图采样， 可以看作是一个滤波器。
+
+![13_convolution.gif](pic/13_convolution.gif)
+
+卷积核的定义有很多种，该如何选择呢？ 不同的卷积核可以提取图片的不同的**特征**，形成不同的**特征图**。
+
+**越多的特征图对于图片的分类就有更好的效果**。
+
+卷积的两种操作:
+
+- same padding: ![15_same_padding.gif](pic/15_same_padding.gif)
+- valid padding:![16_valid_padding.gif](pic/16_valid_padding.gif)
+
+
+
+#### **池化**：
+
+有**大小**，**步长**等特征
+
+- max-pooling
+- mean-pooling
+
+![14_max_pooling.gif](pic/14_max_pooling.gif)
+
+池化也有两种padding的方式：和卷积的padding方式有少许不同
+- same padding: **可能**会给平面外部补0
+- valid padding: **不会**超出平面外部
+
+
+![17_pooling_padding.png](pic/17_pooling_padding.png)
+
+CNN的结构：
+
+![18_cnn_structure.png](pic/18_cnn_structure.png)
+
