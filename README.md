@@ -220,3 +220,12 @@ Tensorboard:
 ![09_tensorboard_scaler.png](pic/09_tensorboard_scaler.png)
 
 ![10_tensorboard_histogram.png](pic/10_tensorboard_histogram.png)
+
+![11_tensorboard_projector.png](pic/11_tensorboard_projector.png)
+
+![11_tensorboard_projector_01.png](pic/11_tensorboard_projector_01.png)
+
+![11_tensorboard_projector_02.png](pic/11_tensorboard_projector_02.png)
+
+### L6 CNN
+
