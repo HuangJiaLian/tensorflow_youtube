@@ -21,6 +21,15 @@
 >
 > Tip: 每次新建一个Notebook的时候要结束运行上一个Notebook, 不然会出现奇怪的错误．
 
+> virtualenv 下使用 jupyter notebook
+> 1. 进入virtualenv环境 : source ~/tf/bin/activate
+> 2. pip install jupyter
+> 3. pip install ipykernel
+> 4. python -m ipykernel install --user --name tf --display-name "Tensorflow"
+>   在Jupyter中 `Kernel >> Change Kernel >> <list of kernels>` 选择`Tensorflow`
+>
+> [参考链接](http://umi101108.com/2017/09/26/%E4%BD%BF%E7%94%A8%E7%89%B9%E5%AE%9A%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83virtualenv-%E8%BF%90%E8%A1%8CJupyter-Notebook/)
+
 GPU版本的`tensorflow`需要先安装 `CUDA` 
 
 ### 第二课 Tensorflow基础
