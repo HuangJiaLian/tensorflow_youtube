@@ -291,3 +291,9 @@ CNN的结构：
 
 ![18_cnn_structure.png](pic/18_cnn_structure.png)
 
+#### RNN
+
+<img src="pic/rnn.png">
+
+Gradient vanishing:
+
